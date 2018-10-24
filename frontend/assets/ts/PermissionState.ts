@@ -1,0 +1,1 @@
+export enum PermissionState {Revoked=1, Granted, Retained}

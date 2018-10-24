@@ -1,0 +1,26 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    // this aligns with Vue's browser support
+    "module": "es6",
+    "lib": [ "es2017", "dom" ],
+    "target": "es5",
+    // this enables stricter inference for data properties on `this`
+    "strict": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    // if using webpack 2+ or rollup, to leverage tree shaking:
+    "module": "es2015",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "~assets/*": ["./assets/*"],
+      "~components/*": ["./components/*"],
+      "~pages/*": ["./pages/*"],
+      "~layouts/*": ["./layouts/*"]
+    },
+    "allowJs": true
+  }
+}

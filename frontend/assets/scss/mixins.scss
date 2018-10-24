@@ -1,0 +1,39 @@
+/* Variables */
+$darkblue: rgb(52, 73, 94);
+$white: rgb(255, 255, 255);
+$black: #000000;
+$darkgray: rgb(108, 122, 137);
+$gray: rgb(235, 235, 235);
+$dirtygray: rgb(44, 62, 80);
+$opaquewhite: rgb(248, 249, 250);
+$normal: 12px;
+$normalrem: 0.75rem;
+$big: 16px;
+$strongblue:#3a00c5;
+$bluishwhite:#97c9ff;
+$ashygray:#545b62;
+$cornywhite:#f3f1e9;
+$lightblue: #bee5eb;
+$greenblue: #526a7f;
+$whiteblue: #f0f8ff;
+
+/* Mixins */
+@mixin give-padding($padding){
+	padding: $padding;
+}
+
+@mixin no-padding(){
+	padding: unset !important;
+}
+
+@mixin no-margin(){
+	margin: unset !important;
+}
+
+@mixin give-margin($padding){
+	margin: $padding;
+}
+
+@mixin give-width($width){
+	width: $width;
+}

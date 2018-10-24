@@ -1,0 +1,30 @@
+form{
+	input,select,textarea{
+		border: 1px solid $black;
+		font-size: $normalrem;
+		font-weight: 600;
+		&.width{
+			@for $i from 1 through 15 {
+			  	&-#{$i}{
+					@include give-width($i * 10px);
+				}
+			}
+		}
+	}
+	button{
+		&.button-width{
+				&-90{
+					@include give-width(90px);
+					font-size: $normalrem;
+				}
+			}
+	}
+	.custom-control{
+		min-height: 0.58rem;
+	}
+	
+	.disabled-input {
+		padding: 0.1rem 1rem;
+    	font-size: 14px;
+    }
+}

@@ -1,0 +1,256 @@
+{
+	"Auth": {
+  
+		"user_pref": {
+			"ip": "IP address",
+			"browser" : "Browser",
+			"os" : "Operating System",
+			"location" : "Location",
+			"locale" : "Language"
+		  },
+		  
+		"username" : "Username",
+		"password" : "Password",
+		"submit" : "Signin",
+		"error": "Invalid Credentials",
+		  
+		"system" : {
+			"name" : "Sales Management System",
+			"info" : "Welcome to Fujiko selling world. Please be patient and be patient."
+		  },
+		
+		"components" : {
+			"forms" : {
+				"product" : {
+					"cancel" : "Cancel",
+					"name" : "Name",
+					"kana" : "Kana",
+					"end" : "End"
+				}
+			},
+
+			"table" : {
+				"account" : {
+					"main_field_bank" : "Bank",
+					"main_field_branch" : "Branch",
+					"main_field_deposit_type" : "Deposit Type",
+					"main_field_accnt_num" : "Account No.",
+					"main_field_comp_num" : "Company No.",
+					"main_field_comp_kana" : "Company Kana"
+				}
+			}
+		},
+
+		"pages" : {
+			"product" : {
+				"title" : "Product Classification Master Maintenance",
+				"filter" : "filter",
+				"end" : "End",
+				"prod" : "Product",
+				"subprod" : "Class",
+
+				"edit" : "Edit",
+				"cancel" : "Cancel",
+				"delete" : "Delete",
+				"new" : "New",
+
+				"date" : "Date",
+				"list" : "List",
+
+				"menu" : "Menu"
+			},
+
+			"bank" : {
+				"title" : "Bank Classification Master Maintenance",
+				"filter" : "filter",
+				"end" : "End",
+				"bank_name" : "Bank",
+				"bank_kana" : "Bank Kana",
+				"branch_name" : "Branch",
+				"branch_kana" : "Branch Kana",
+
+				"edit" : "Edit",
+				"cancel" : "Cancel",
+				"delete" : "Delete",
+				"new" : "New",
+
+				"date" : "Date",
+				"list" : "List",
+
+				"menu" : "Menu"
+			},
+
+			"commision" : {
+				"title" : "Commission Setting",
+				"filter" : "filter",
+				"transfer_amount" : "Amount to be transfered",
+				"fee" : "Fee",
+
+				"fee_field_name" : "Commision Class",
+				"fee_field_window" : "Window",
+				"fee_field_machine" : "ATM Machine",
+
+				"transfer_field_min" : "Above",
+				"transfer_field_max" : "Below",	
+				
+				"transfer_form_heading" : "Transfer Amount",
+				"fee_form_heading" : "Fee"
+			},
+
+			"company" : {
+				"title" : "Company Account Master Maintenance",
+				"filter" : "filter"
+			},
+
+			"course" : {
+				"title" : "Course Master Maintenance List",
+				"filter" : "filter",
+				"course_name" : "Course",
+				"sub_course_name" : "Sub_Course",
+				"end" : "End",
+
+				"edit" : "Edit",
+				"cancel" : "Cancel",
+				"delete" : "Delete",
+				"new" : "New",
+
+				"date" : "Date",
+
+				"menu" : "Menu"
+			},
+
+			"credit" : {
+				"title" : "Unit Master Maintenance List",
+				"filter" : "filter",
+				"unit_name" : "Unit Name"
+			},
+
+			"department" : {
+				"title" : "Department master maintenance list",
+				"filter" : "filter",
+				"hierarchy" : "Hierarchy",
+				"superior" : "Superior",
+
+				"name" : "Department Name",
+				"kana" : "Department Kana",
+				"short_name" : "Department Short Name",
+				"order" : "Order",
+				"postal" : "Postal",
+				"info" : "Address 1 / Address 2 / Telephone Number / Fax Number",
+				"warehouse" : "Warehouse",
+				"receipt" : "Receipt"
+			},
+			
+			"general" : {
+				"title" : "General Purpose Master Maintenance",
+				"filter" : "filter",
+
+				"id" : "ID",
+				"mst_g_system_setting" : "System Setting",
+				"mst_g_recognition_name" : "Name",
+				"mst_g_hw_num_unallowed" : "Half-width numbers not allowed",
+				"mst_g_system_character" : "Setting (character)",
+				"mst_g_system_number" : "Setting (number)"
+			},
+
+			"journal" : {
+				"title" : "Journal Pattern Setting",
+				"filter" : "filter",
+				"payment1" : "Payment",
+				"payment2" : "Deposit",
+
+				"payment_class" : "Payment Type",
+				"deposit_class" : "Deposit Type",
+				"support_class" : "Auxilliary",
+				"name" : "Journal Name",
+				"debit": "Debit",
+				"credit": "Credit"
+			},
+
+			"manufacturer" : {
+				"title" : "Manufacturer Master Maintenance List",
+				"filter" : "filter",
+				"end" : "End",
+				"name" : "Manufacturer",
+
+				"confirmation" : "Confirmation",
+				"continue" : "Continue",
+				"yes" : "Yes",
+
+				"edit" : "Edit",
+				"cancel" : "Cancel",
+				"delete" : "Delete",
+				"register" : "Register",
+
+				"date" : "Date",
+				"list" : "List",
+
+				"menu" : "Menu"
+			},
+
+			"officer" : {
+				"title" : "Person in charge Master Maintenance List",
+				"filter" : "filter",
+
+				"mst_u_user_id" : "User ID",
+				"mst_u_username" : "User Name",
+				"username_kana" : "User Name Kana",
+				"mst_u_dept_id" : "Dept ID",
+				"department_name" : "Department Name",
+				"resigned" : "End"
+			},
+
+			"role" : {
+				"button" : {
+					"title" : "Program Command Execution Authority Master Maintenance",
+					"user_id" : "User ID",
+
+					"category_name" : "Program Category Name",
+					"program_name" : "Program Name",
+					"action" : "Program Command Name",
+					"useFlg" : "Use",
+					"referenceFlg" : "Ref Only"
+				},
+
+				"program" : {
+					"title" : "Execution Authorization Master Maintenance",
+					"user_id" : "User ID",
+
+					"category_name" : "Program Category Name",
+					"program" : "Program ID / Program Name",
+					"useFlg" : "Use",
+					"referenceFlg" : "Ref Only"
+				}
+			},
+
+			"supplier" : {
+				"title" : "Destination Master Maintenance List",
+				"filter" : "filter",
+				"customer_code" : "Customer CD",
+				"customer_name" : "Customer Name",
+				"supplier_code" : "Destination CD",
+				"supplier_kana" : "Supplier Kana",
+				"supplier_name" : "Supplier Name",
+				"phone_number" : "Phone Number"
+			},
+
+			"warehouse" : {
+				"title" : "Warehouse Master Maintenance List",
+				"filter" : "filter",
+
+				"whs_name" : "Name",
+				"whs_kana" : "Kana",
+				"whs_abbreviation" : "Short Name",
+				"whs_postal_code" : "Postal",
+				"whs_address_1" : "Add 1",
+				"whs_street_address_1" : "Add 2",
+				"whs_phone_number" : "Phone No.",
+				"whs_fax_number" : "Fax No."
+			},			
+			"roleButton" : {
+				"title" : "Command execution authority Master maintenance",
+				"userid" : "User ID:"
+			}
+		}
+	}
+}

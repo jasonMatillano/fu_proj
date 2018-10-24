@@ -1,0 +1,257 @@
+{
+  "Auth": {
+
+  	"user_pref": {
+  		"ip": "IPアドレス",
+  		"browser" : "ブラウザ",
+  		"os" : "オペレーティングシステム",
+  		"location" : "ロケーション",
+  		"locale" : "言語"
+		},
+		
+  	"username" : "ユーザー名",
+  	"password" : "パスワード",
+	"submit" : "サインイン",
+	"error": "無効な資格情報",
+
+  	"system" : {
+  		"name" : "販売管理システム",
+  		"info" : "販売管理システムへようこそ！"
+		},
+
+		"components" : {
+			"forms" : {
+				"product" : {
+					"cancel" : "取消",
+					"name" : "名前",
+					"kana" : "カナ",
+					"end" : "終了"
+				}
+			},
+
+			"table" : {
+				"account" : {
+					"main_field_bank" : "銀行",
+					"main_field_branch" : "支店",
+					"main_field_deposit_type" : "預金種別",
+					"main_field_accnt_num" : "口座番号",
+					"main_field_comp_num" : "会社番号",
+					"main_field_comp_kana" : "会社ｶﾅ"
+				}
+			}
+		},
+		
+		"pages" : {
+			"product" : {
+				"title" : "商品分類マスタメンテナンス",
+				"filter" : "フィルタ",
+				"end" : "終了",
+				"prod" : "大分類名",
+				"subprod" : "中分類名",
+
+				"edit" : "変更",
+				"cancel" : "取消",
+				"delete" : "削除",
+				"new" : "新規",
+
+				"date" : "日付",
+				"list" : "リスト",
+
+				"menu" : "メニュ"
+			},
+
+			"bank" : {
+				"title" : "銀行マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"end" : "終了",
+				"bank_name" : "銀行名",
+				"bank_kana" : "銀行カナ",
+				"branch_name" : "支店名",
+				"branch_kana" : "支店カナ",
+
+				"edit" : "変更",
+				"cancel" : "取消",
+				"delete" : "削除",
+				"new" : "新規",
+
+				"date" : "日付",
+				"list" : "リスト",
+
+				"menu" : "メニュ"
+			},
+
+			"commision" : {
+				"title" : "手数料設定",
+				"filter" : "フィルタ",
+				"transfer_amount" : "振込金額",
+				"fee" : "手数料　",
+
+				"fee_field_name" : "手数料区分",
+				"fee_field_window" : "窓口",
+				"fee_field_machine" : "自動機",
+
+				"transfer_field_min" : "以上",
+				"transfer_field_max" : "未満",
+
+				"transfer_form_heading" : "振込金額",
+				"fee_form_heading" : "手数料"
+			},
+
+			"company" : {
+				"title" : "自社口座マスタメンテナンス",
+				"filter" : "フィルタ"
+			},
+
+			"course" : {
+				"title" : "科目マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"course_name" : "主科目名",
+				"sub_course_name" : "補助科目名",
+				"end" : "終了",
+
+				"edit" : "変更",
+				"cancel" : "取消",
+				"delete" : "削除",
+				"new" : "新規",
+
+				"date" : "日付",
+
+				"menu" : "メニュ"
+			},
+
+			"credit" : {
+				"title" : "単位マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"unit_name" : "単位名"
+			},
+
+			"department" : {
+				"title" : "部門マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"hierarchy" : "階層",
+				"superior" : "上位",
+
+				"name" : "部門名",
+				"kana" : "部門カナ",
+				"short_name" : "部門略称",
+				"order" : "順序",
+				"postal" : "〒",
+				"info" : "住所１／住所２／電話番号／FAX番号",
+				"warehouse" : "倉庫",
+				"receipt" : "領収連番領収記号"
+			},
+
+			"general" : {
+				"title" : "汎用マスタメンテナンス",
+				"filter" : "フィルタ",
+
+				"id" : "識別ID",
+				"mst_g_system_setting" : "システム設定",
+				"mst_g_recognition_name" : "認識名",
+				"mst_g_hw_num_unallowed" : "半角数字不可",
+				"mst_g_system_character" : "設定(文字)",
+				"mst_g_system_number" : "設定(数値)"
+			},
+
+			"journal" : {
+				"title" : "仕訳パターン設定",
+				"filter" : "フィルタ",
+				"payment1" : "支払",
+				"payment2" : "入金",
+
+				"payment_class" : "支払区分",
+				"deposit_class" : "入金区分",
+				"support_class" : "補助区分",
+				"name" : "仕訳名",
+				"debit": "借方　主科目",
+				"credit": "貸方　主科目"
+			},
+
+			"manufacturer" : {
+				"title" : "メーカーマスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"end" : "終了",
+				"name" : "メーカー名",
+
+				"confirmation" : "確認",
+				"continue" : "持続する",
+				"yes" : "はい",
+
+				"edit" : "変更",
+				"cancel" : "取消",
+				"delete" : "削除",
+				"register" : "新規登録",
+
+				"date" : "日付",
+				"list" : "リスト",
+
+				"menu" : "メニュ"
+			},
+
+			"officer" : {
+				"title" : "担当者マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+
+				"mst_u_user_id" : "担当者ID",
+				"mst_u_username" : "担当者名",
+				"username_kana" : "担当者ｶﾅ",
+				"mst_u_dept_id" : "部門ID",
+				"department_name" : "部門名",
+				"resigned" : "終了"
+			},
+
+			"role" : {
+				"button" : {
+					"title" : "プログラムコマンド実行権限マスタメンテナンス",
+					"user_id" : "ユーザID",
+
+					"category_name" : "プログラムカテゴリ名",
+					"program_name" : "プログラム名",
+					"action" : "プログラムコマンド名",
+					"useFlg" : "使用",
+					"referenceFlg" : "参照のみ"
+				},
+
+				"program" : {
+					"title" : "実行権限マスタメンテナンス",
+					"user_id" : "ユーザID",
+
+					"category_name" : "プログラムカテゴリ名",
+					"program" : "プログラムID / プログラム名",
+					"useFlg" : "使用",
+					"referenceFlg" : "参照のみ"
+				}
+			},
+
+			"supplier" : {
+				"title" : "納入先マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+				"customer_code" : "得意先CD",
+				"customer_name" : "得意先名",
+				"supplier_code" : "納入先CD",
+				"supplier_kana" : "納入先ｶﾅ",
+				"supplier_name" : "納入先名",
+				"phone_number" : "電話番号"
+			},
+
+			"warehouse" : {
+				"title" : "倉庫マスタメンテナンスリスト",
+				"filter" : "フィルタ",
+
+				"whs_name" : "倉庫名",
+				"whs_kana" : "倉庫ｶﾅ",
+				"whs_abbreviation" : "倉庫略称",
+				"whs_postal_code" : "〒",
+				"whs_address_1" : "住所１",
+				"whs_street_address_1" : "住所２",
+				"whs_phone_number" : "電話番号",
+				"whs_fax_number" : "FAX番号"
+			},
+
+			"roleButton" : {
+				"title" : "コマンド実行権限マスタメンテ",
+				"userid" : "ユーザーID:"
+			}
+		}
+  	}
+}

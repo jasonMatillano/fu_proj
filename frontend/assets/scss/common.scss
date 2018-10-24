@@ -1,0 +1,155 @@
+@import '@/assets/scss/mixins.scss';
+#wg-master{
+	.content{
+		&-body{
+			background-color: $white;
+			border-radius: 5px;
+			@include give-padding(1%);
+			font-size: $normal;
+			min-height: 75vh;
+			max-height: 100%;
+			section{
+				&.field{
+					&-label{
+						label{
+							font-size: $normalrem;
+							font-weight: 600;
+						}
+					}
+					&-input{
+						.form-control-sm{
+							border: 1px solid $black;
+							font-size: $normalrem;
+							font-weight: 600;
+							height: auto;
+						}
+					}
+					&-table{
+						min-height: 550px;
+						max-height: 650px;
+						overflow: hidden;
+						&.table-half{
+							min-height: 250px;
+							max-height: 310px;
+						}
+						table{
+							background-color: whitesmoke;
+							&.table{
+								&-hover{
+									tbody{
+										tr:hover{
+											td,th{
+												background-color: $lightblue;
+												cursor: pointer;
+											}
+										}
+									}
+								}
+								&-bordered{
+									th, td{
+										font-weight: normal;
+										border: 1px solid $greenblue;
+										border-top: none;
+									}
+								}
+								&-striped{
+									tbody{
+										tr{
+											&:nth-of-type(even){
+												background-color: $white;
+											}
+											&:nth-of-type(odd){
+												background-color: $whiteblue;
+											}
+										}
+									}
+								}
+								&-info{
+									> td{
+										background-color: $lightblue;
+									}
+								}
+							}
+							thead{
+									background-color: $darkblue;
+									color: white;
+									display:table;
+									@include give-width(-webkit-calc(100% - 10px));
+									@include give-width(    -moz-calc(100% - 10px));
+									@include give-width(         calc(100% - 10px));
+								    table-layout:fixed;
+								    tr{
+								    	th{
+								    		text-align: center !important;
+								    		&:last-child{
+								    			@include give-padding(0.3rem 17px 0.3rem 0.3rem);
+								    		}
+								    	}
+								    }
+							}
+							tbody{
+									display:block;
+									height: 620px;
+									overflow-y:scroll;
+									tr{
+										display:table;
+									    @include give-width(100%);
+									    table-layout:fixed;
+									}
+									&.table{
+										&-half{
+											height: 280px;
+										}
+										&-adjusted{
+											height: 600px;
+										}
+									}
+
+							}
+							thead tr th, tbody tr td{
+								&.table-col-width{
+									@for $i from 1 through 20 {
+									  	&-#{$i}{
+											@include give-width(percentage($i/100));
+										}
+									}
+									@for $i from 30 through 150 {
+									  	&-#{$i}{
+											@include give-width($i + px);
+										}
+									}
+								}
+							}
+							button{
+								font-size: 10px;
+								padding: 0.125rem 0.25rem
+							}
+						}
+					}
+					&-form{
+						@include give-margin(3.7vh 0 0 0);
+						max-height: 67vh;
+						overflow-y: auto;
+						overflow-x: hidden;
+					}
+					
+					&-bill {
+						@include give-margin(0.7vh 0 0 0);
+				        max-height: 73vh !important;
+				        
+				        h5 {
+						    font-size: 15px;
+						    font-size: 1rem;
+						    margin-bottom: 0.3rem;
+						}
+				    }
+				}
+			}
+		}
+		&-footer{
+			background-color: $white;
+			border-radius: 5px;
+			@include give-margin(0.5rem 0px)
+		}
+	}
+}

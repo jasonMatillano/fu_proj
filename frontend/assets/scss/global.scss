@@ -1,0 +1,91 @@
+@import '@/assets/scss/mixins.scss';
+
+/* Global Styles */
+body,html{
+	background-color: $cornywhite;
+	font-family: Meiryo !important;
+	height:100%;
+	#__nuxt{
+		height:100%;
+		#__layout{
+			height:100%;
+		}
+	}
+	.fade{
+		&-enter{
+			transform: translateX(20px);
+				opacity: 0;
+				&-active{
+					transition: all 0.5s ease;
+				}
+		}
+		&-leave{
+			&-active{
+				 transition: all 0.5s ease;
+			}
+			&-to{
+				transform: translateX(-20px);
+					opacity: 0;
+			}
+		}
+		&-fast{
+			&-enter{
+				transform: translateX(20px);
+					opacity: 0;
+					&-active{
+						transition: all 0.5s ease;
+					}
+			}
+			&-leave{
+				&-active{
+					 transition: 0s;
+				}
+				&-to{
+					transform: translateX(0);
+						opacity: 0;
+				}
+			}
+		}
+	}
+}
+button {    
+	&.dropdown-toggle {
+	  &:hover {
+			background-color: unset !important;
+			border-color: $white !important;
+			color: $black !important;
+	  }
+	  background-color: unset;
+	  border-color: $white;
+	  color: $black;
+	  padding: 0;
+	  span:nth-child(2) {
+			margin-left: 10px;
+			svg {
+				font-size: 37px;
+				vertical-align: middle;
+			}
+		}
+  }
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+	background-color: #F5F5F5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: $greenblue;
+}
+
+.custom-file-input~.custom-file-label::after {
+    content: "開く";
+}
